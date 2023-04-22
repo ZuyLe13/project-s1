@@ -476,7 +476,7 @@ a {
 }
 
 .courses .courses-desc .date::before,
-.courses .courses-desc .quantity::before {
+.courses .courses-desc .qty::before {
     position: relative;
     content: "";
     display: inline-block;
@@ -486,4 +486,31 @@ a {
     height: 6px;
     background: var(--primary-color);
     border-radius: 50%;
+}
+
+/* -------- Quantity -------- */
+.quantity .container {
+    width: 862px;
+    margin: 0 auto;
+}
+
+.quantity .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 194px;
+}
+
+.quantity .heading {
+    font-weight: 700;
+    line-height: 9.3rem;
+    text-align: center;
+    color: #0d1111;
+}
+
+.quantity .desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #767e7e;
 }
