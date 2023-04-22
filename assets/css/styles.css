@@ -172,6 +172,10 @@ a {
     margin-top: 52px;
 }
 
+.hero .cta-group .btn:hover {
+    opacity: 0.9;
+}
+
 .hero .cta-group .icon {
     display: flex;
     align-items: center;
@@ -513,4 +517,218 @@ a {
     line-height: 2.7rem;
     text-align: center;
     color: #767e7e;
+}
+
+/* --------- Feedback -------- */
+.feedback {
+    margin-top: 264px;
+}
+
+.feedback .body {
+    display: flex;
+}
+
+.feedback .info {
+    width: 419px;
+    margin-right: 72px;
+}
+
+.feedback blockquote {
+    margin-top: 27px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.feedback strong {
+    color: #070707;
+    font-weight: 500;
+}
+
+.feedback .desc {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #767e7e;
+}
+
+.feedback .desc::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback .controls {
+    margin-top: 52px;
+}
+
+.feedback .control-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: transparent;
+}
+
+.feedback .control-btn:hover {
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.feedback .group-img {
+    position: relative;
+    width: 679px;
+    height: 481px;
+}
+
+.feedback .group-img .img-item {
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .img-item.bigger {
+    width: 235px;
+    height: 235px;
+}
+
+.feedback .img-item.bigger-1 {
+    top: 107px;
+    right: 171px;
+}
+
+.feedback .img-item.big {
+    width: 110px;
+    height: 110px;
+}
+
+.feedback .img-item.big-1 {
+    top: 19px;
+    right: 0;
+}
+
+.feedback .img-item.medium {
+    width: 92px;
+    height: 92px;
+}
+
+.feedback .img-item.medium-1 {
+    top: 0;
+    right: 443px;
+}
+
+.feedback .img-item.small {
+    width: 78px;
+    height: 78px;
+}
+
+.feedback .img-item.small-1 {
+    left: 0;
+    bottom: 145px;
+}
+
+.feedback .img-item.small-2 {
+    left: 212px;
+    bottom: 0;
+}
+
+.feedback .img-item.small-3 {
+    right: 32px;
+    bottom: 39px;
+}
+
+/* --------- CTA --------- */
+.cta {
+    margin-top: 130px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.cta .container {
+    width: calc(100vw - 424);
+}
+
+.cta .body {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+}
+
+.cta .heading {
+    font-weight: 700;
+    color: #070707;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #767e7e;
+}
+
+.cta .btn:hover {
+    opacity: 0.9;
+}
+
+/* --------- Footer --------- */
+.footer {
+    margin-top: 131px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #2e2e2e;
+}
+
+.footer .column li a {
+    display: flex;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #535353;
+}
+
+.footer .list-block {
+    display: flex;
+}
+
+.footer .list li:first-child {
+    margin-top: 25px;
+}
+
+.footer .list-block:first-child a {
+    margin-top: 0;
+}
+
+.footer .list-block .icon {
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    padding: 80px 0 50px;
+}
+
+.footer .copyright p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #b0b5b4;
 }
